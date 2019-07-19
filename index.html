@@ -54,9 +54,25 @@
 			<div id="clear"></div>
 				</div>
 				<div id="ckplays">
-					<iframe id="jiekou" name="jiekou" src="video.html" width="100%" allowfullscreen="true"></iframe>
+					<iframe id="jiekou" name="jiekou" src="video.html" width="100%" allowfullscreen="true"  webkitallowfullscreen="true" mozallowfullscreen="true></iframe>
 				</div>
 <script>
+
+function IsPC() {
+   var userAgentInfo = navigator.userAgent;
+   var Agents = ["Android", "iPhone",
+      "SymbianOS", "Windows Phone",
+      "iPad", "iPod"];
+   var flag = true;
+   for (var v = 0; v < Agents.length; v++) {
+      if (userAgentInfo.indexOf(Agents[v]) > 0) {
+         flag = false;
+         break;
+      }
+   }
+   return flag;
+}
+
 
 
 
