@@ -1,6 +1,7 @@
 ﻿.tips,
 body {
-	text-align: center
+	text-align: center;
+	
 }
 
 html {
@@ -63,6 +64,7 @@ body {
 	line-height: 1.333;
 	background: #333;
 	color: #eee;
+	padding:1%;
 }
 
 .centers {
@@ -123,7 +125,7 @@ body {
 	background: linear-gradient(top, #fff, #f7f7f7);
 	color: #333;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 16px;
 	font-family: "Microsoft Yahei", "ÃŽÂ¢ÃˆÃ­Ã‘Ã…ÂºÃš";
 	cursor: pointer;
 }
@@ -227,13 +229,13 @@ img {
 .navigation-up .navigation-v3 li {
 	float: left;
 	color: #fff;
-	font: 400 16px/59px "microsoft yahei"
+	font: 400 16px/170% "microsoft yahei"
 }
 
 .navigation-up .navigation-v3 .nav-up-selected,
 .navigation-up .navigation-v3 .nav-up-selected-inpage {
 	/* background:#6fd3f1 */
-	font-size: 30px;
+	font-size: 24px;
 	width: 100%;
 	display: block;
 	text-align: center;
