@@ -50,6 +50,7 @@
 					</div>
 					<div id="clear"></div>
 			<p align="“center&quot;">把视频地址粘贴到上面的文本框，就可“立即播放了”哦,如果播放速度慢，可在上面“切换路线”哦</p>
+			<p><a href="javascript:void(0);" onClick="javascript:quanping();">全屏播放</a></p>
 			<div id="clear"></div>
 				</div>
 				<div id="ckplays">
@@ -60,7 +61,28 @@
         var x = $("#jiekou").width();
  x=x*0.75;
           $("#jiekou").css('height' , x+'px');
+		  
+		  
      });
+	 
+	 
+	 function quanping(){
+	 
+	 	$("#jiekou").css({
+			'transform':'rotate(30deg)',
+			'width':100%,
+			'height':100%,
+			'top':0
+			'left':0,
+			'right':0,
+			'bottom':0,
+			'position':'fixed',
+			'zIndex':'999999999'
+		});
+	 
+	 }
+	 
+	 
 </script>
 				<div class="tips">
 					<div id="clear" class="height20"></div>
